@@ -1,0 +1,192 @@
+
+body{
+    background: black;
+  }
+
+/*Gallery Page*/
+
+  .gallery-header-grid div{
+    color:lightgreen;
+    float: left;
+  }
+  #gallery-header .gallery-header-grid{
+      display: grid;
+      grid-gap: 20px;
+      grid-template-columns: 430px 430px 430px;
+      grid-template-rows: 150px 150px 150px;
+  }
+  #gallery-header .gallery-header-grid .one{
+      grid-area: 1 / 3 / span 2 / span 1;
+  }
+  #gallery-header .gallery-header-grid .two{
+    grid-area: 2 / 2 / span 2 / span 1;
+}
+#gallery-header .gallery-header-grid .three{
+    grid-area: 3 / 1 / span 2 / span 1;
+}
+#gallery-header footer{
+    color:white;
+    margin-top: 30px;
+    float: right;
+}
+.gallery-previous{
+    font-size: 25px;
+    float: left;
+    color: white;
+}
+/*Gallery Page Over*/
+
+/*India Page starts*/
+#india-header{
+    height: 200px;
+    background-image: url("https://keralatourism.travel/images/places-to-visit/headers/kolukkumalai-tea-estate-munnar-tourism-entry-fee-timings-holidays-reviews-header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+#india-header h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+#india-container div{
+    display: flex;
+    background-image: url("https://media3.s-nbcnews.com/j/newscms/2018_39/1370391/benefits-of-drink-tea-stock-today-main-180924-02_22258a72b842f2c27d383ab73398cb9f.fit-760w.jpg");
+    background-attachment: fixed;
+    background-size: 1335px 768px;
+}
+#india-container .one, #india-container .three{
+    width: 1335px;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+#india-container .four{
+    float: left;
+}
+#india-container .three{
+    float: right;
+    width: 835px;
+    height: 500px;
+}
+#india-footer a:first-child{
+    font-size: 25px;
+    float: left;
+    color: white;
+}
+#india-footer a:last-child{
+    font-size: 25px;
+    float: right;
+    color:white;
+
+}
+
+/*India over*/
+
+/* Tea_contries starts*/
+#main-box{
+    background: url("https://i.pinimg.com/originals/33/24/e2/3324e2e0624c67bf2c50dd74b0bd7c56.jpg");
+    width: 1335px;
+    background-attachment:fixed;
+}
+#tc-header{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#tc-header h1{
+    font-family: 'Fredoka One', cursive;
+    padding-top: 80px;
+    font-size: xx-large;
+}
+#tc-container div{
+    display: flex;
+    width: 850px;
+    height: 200px;
+    flex-wrap: nowrap;
+    border: 1px solid black;
+    margin: 30px 225px;
+}
+
+#tc-container p{
+    font-family: 'Cormorant', serif;
+    font-size: larger;
+    font-weight: 900;
+}
+#tc-container h2{
+    font-family: 'Fredoka One', cursive;
+}
+
+.step8 h2{
+    margin-right: 450px;
+}
+#tc-header{
+    height: 200px;
+    background-image: url("https://images.thrillophilia.com/image/upload/s--jBRaMFcU--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/062/438/original/4ff71faf9a9f9_3776091774_2b15efa8f.jpg.jpg?1458166439");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.step1{
+    height: 200px;
+    background-image: url("https://cuttingedgerenovations.com.au/wp-content/uploads/Step-1.png");
+    background-attachment: fixed;
+}
+.step2{
+    height: 200px;
+    background-image: url("https://cuttingedgerenovations.com.au/wp-content/uploads/Step-21.png");
+    background-attachment: fixed;
+}
+.step3{
+    height: 200px;
+    background-image: url("http://leadindiaolympiad.in/wp-content/uploads/2017/08/step-3.png");
+    background-attachment: fixed;
+}
+.step4{
+    height: 200px;
+    background-image: url("https://gocreativewireless.net/wp-content/uploads/2017/07/Step-4-o-300x300.png");
+    background-attachment: fixed;
+}
+.step5{
+    height: 200px;
+    background-image: url("https://gocreativewireless.net/wp-content/uploads/2017/08/Step-5-o.png");
+    background-attachment: fixed;
+}
+.step6{
+    height: 200px;
+    background-image: url("http://aiw2brandinganddesign.com/wp-content/uploads/2015/03/STEP-6.png");
+    background-attachment: fixed;
+}
+.step7{
+    height: 200px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX4wxTe-BDwYwqFQIKTSFZ3CsMsuUS__UejzTZIunhStgwKfd5");
+    background-attachment: fixed;
+}
+.step8{
+    height: 200px;
+    background-image: url("https://cideruk.com/wp-content/uploads/2016/07/step8.jpg");
+    background-attachment: fixed;
+}
+/*over*/
+
+/* index starts
+#index-container{
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    margin: 50px;
+}
+#index-header{
+    display: flex;
+    width: 1330px;
+    height: 100px;
+    margin: 50px;
+}
+
+#index-header div{
+    flex-basis: 35%;
+    
+    
+}*/
+
+  
